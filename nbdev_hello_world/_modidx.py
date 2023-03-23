@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://benjlis.github.io',
                 'git_url': 'https://github.com/benjlis/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')},
+            'nbdev_hello_world.hello_world': { 'nbdev_hello_world.hello_world.foo': ( 'hello_world.html#foo',
+                                                                                      'nbdev_hello_world/hello_world.py'),
+                                               'nbdev_hello_world.hello_world.say_hello': ( 'hello_world.html#say_hello',
+                                                                                            'nbdev_hello_world/hello_world.py')}}}
